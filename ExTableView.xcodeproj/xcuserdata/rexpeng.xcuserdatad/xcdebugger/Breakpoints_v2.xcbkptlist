@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F35DF2A2-EB9A-4F4A-90EC-03A834C55187"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E0A19BDD-7E12-4D2F-8124-2615D8FF8BBB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExTableView/View/ExTableView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "199"
+            endingLineNumber = "199"
+            landmarkName = "boundsBack()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7E08000B-649D-46FB-ACA8-8CC4C7F25FC4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExTableView/View/ExTableView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "161"
+            endingLineNumber = "161"
+            landmarkName = "cvPanAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E6D2C36A-3C2F-48C5-B7CF-F5111771F5C5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExTableView/View/ExTableView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "200"
+            endingLineNumber = "200"
+            landmarkName = "boundsBack()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E6D2C36A-3C2F-48C5-B7CF-F5111771F5C5 - 3e02f371611e3446"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExTableView.ExTableView.boundsBack() -&gt; ()"
+                  moduleName = "ExTableView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rexpeng/Documents/ExTableView/ExTableView/View/ExTableView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "204"
+                  endingLineNumber = "204"
+                  offsetFromSymbolStart = "3044">
+               </Location>
+               <Location
+                  uuid = "E6D2C36A-3C2F-48C5-B7CF-F5111771F5C5 - 2fee7a2037215d13"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #4 () -&gt; () in ExTableView.ExTableView.boundsBack() -&gt; ()"
+                  moduleName = "ExTableView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rexpeng/Documents/ExTableView/ExTableView/View/ExTableView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "205"
+                  endingLineNumber = "205"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CD854911-4538-40D5-8350-0A0F5A1CB41D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExTableView/View/ExTableView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "194"
+            endingLineNumber = "194"
+            landmarkName = "boundsBack()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CD854911-4538-40D5-8350-0A0F5A1CB41D - 3e02f371611e3446"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExTableView.ExTableView.boundsBack() -&gt; ()"
+                  moduleName = "ExTableView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rexpeng/Documents/ExTableView/ExTableView/View/ExTableView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "198"
+                  endingLineNumber = "198"
+                  offsetFromSymbolStart = "1952">
+               </Location>
+               <Location
+                  uuid = "CD854911-4538-40D5-8350-0A0F5A1CB41D - 4f93ee69b4b8e01e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 () -&gt; () in ExTableView.ExTableView.boundsBack() -&gt; ()"
+                  moduleName = "ExTableView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rexpeng/Documents/ExTableView/ExTableView/View/ExTableView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "199"
+                  endingLineNumber = "199"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
