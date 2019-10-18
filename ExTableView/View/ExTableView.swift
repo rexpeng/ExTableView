@@ -22,6 +22,9 @@ class ExTableView: UIView {
     
     var fixCol: Int = 2
     var fixRow: Int = 1
+    
+    var rows: Int = 0
+    var cols: Int = 0
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -62,12 +65,14 @@ class ExTableView: UIView {
     func setup() {
         self.clipsToBounds = true
         self.backgroundColor = .lightGray
-        for r in 0..<20 {
-            var cols: [String] = []
-            for c in 0..<20 {
-                cols.append("\(r)-\(c)")
+        rows = 10
+        cols = 20
+        for r in 0..<rows {
+            var colss: [String] = []
+            for c in 0..<cols {
+                colss.append("\(r)-\(c)")
             }
-            cellDatas.append(cols)
+            cellDatas.append(colss)
         }
         
         let flowLayout = UICollectionViewFlowLayout()
@@ -151,21 +156,22 @@ class ExTableView: UIView {
             fixOrgX -= (epoint.x-sPoint.x)
             fixOrgY -= (epoint.y-sPoint.y)
             
-            if orgX >= 0 {
-                dataCollectionView.bounds.origin.x = orgX
-                fixRowCollectionView.bounds.origin.x = fixOrgX
-            } else if fixCol <= 0 {
+            if orgX >= 0 || fixCol <= 0{
                 dataCollectionView.bounds.origin.x = orgX
                 fixRowCollectionView.bounds.origin.x = fixOrgX
             }
-            if orgY >= 0 {
-                dataCollectionView.bounds.origin.y = orgY
-                fixColCollectionView.bounds.origin.y = fixOrgY
-            } else if fixRow <= 0 {
-                //bringSubviewToFront(fixRowCollectionView)
+//            else if fixCol <= 0 {
+//                dataCollectionView.bounds.origin.x = orgX
+//                fixRowCollectionView.bounds.origin.x = fixOrgX
+//            }
+            if orgY >= 0 || fixRow <= 0 {
                 dataCollectionView.bounds.origin.y = orgY
                 fixColCollectionView.bounds.origin.y = fixOrgY
             }
+//            else if fixRow <= 0 {
+//                dataCollectionView.bounds.origin.y = orgY
+//                fixColCollectionView.bounds.origin.y = fixOrgY
+//            }
             
             sPoint = epoint
         case .ended:
@@ -229,7 +235,7 @@ extension ExTableView: UICollectionViewDataSource {
         if collectionView == fixRowCollectionView || collectionView == fixDataCollectionView {
             return fixRow
         } else {
-            return 20 - fixRow
+            return rows - fixRow
         }
     }
     
@@ -237,7 +243,7 @@ extension ExTableView: UICollectionViewDataSource {
         if collectionView == fixColCollectionView || collectionView == fixDataCollectionView {
             return fixCol
         } else {
-            return 20 - fixCol
+            return cols - fixCol
         }
     }
     
